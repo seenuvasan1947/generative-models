@@ -40,3 +40,5 @@ wheel>=0.41.0
 xformers>=0.0.20
 gradio
 streamlit-keyup==0.2.0
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
