@@ -40,3 +40,4 @@ wheel>=0.41.0
 xformers>=0.0.20
 gradio
 streamlit-keyup==0.2.0
+python-multipart>=0.0.18 # not directly required, pinned by Snyk to avoid a vulnerability
