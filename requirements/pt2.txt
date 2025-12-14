@@ -33,10 +33,12 @@ torchvision>=0.15.2
 tqdm>=4.65.0
 transformers==4.19.1
 triton==2.0.0
-urllib3<1.27,>=1.25.4
+urllib3<2.6.0
 wandb>=0.15.6
 webdataset>=0.2.33
 wheel>=0.41.0
 xformers>=0.0.20
 gradio
 streamlit-keyup==0.2.0
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
